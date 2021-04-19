@@ -20,7 +20,7 @@ class PaginaPrincipal extends StatelessWidget {
                 child: FlipInX(
                   duration: Duration(milliseconds: 1200),
                   child: Text(
-                    'Good Mornig',
+                    'Good',
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 20,
