@@ -82,7 +82,7 @@ class _HeaderPaiter extends CustomPainter {
     //Propiedades
     paint.color = Color(0xffF2539B);
     paint.style = PaintingStyle.fill; //stroke  fill
-    paint.strokeWidth = 5;
+    paint.strokeWidth = 1;
 
     final path = new Path();
 
@@ -92,7 +92,7 @@ class _HeaderPaiter extends CustomPainter {
     //Dibujo Rosado
     path.quadraticBezierTo(size.width * 0.3, size.height * 0.70,
         size.width * 0.55, size.height * 0.85);
-    path.quadraticBezierTo(size.width * 0.75, size.height * 0.98,
+    path.quadraticBezierTo(size.width * 0.75, size.height * 0.984,
         size.width * 0.80, size.height * 0.99);
     path.quadraticBezierTo(
         size.width * 0.87, size.height, size.width * 0.95, size.height * 0.965);

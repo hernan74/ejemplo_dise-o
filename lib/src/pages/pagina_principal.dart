@@ -1,8 +1,10 @@
+import 'package:flutter/material.dart';
+
 import 'package:animate_do/animate_do.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+
 import 'package:ejemplo_social_app/src/widget/header_home.dart';
 import 'package:ejemplo_social_app/src/widget/item_stats.dart';
-import 'package:flutter/material.dart';
-import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 class PaginaPrincipal extends StatelessWidget {
   @override
