@@ -25,7 +25,7 @@ class RankingAvatar extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ZoomIn(
-          child: Container(
+      child: Container(
         width: ancho,
         height: alto,
         child: Column(
@@ -42,7 +42,9 @@ class RankingAvatar extends StatelessWidget {
             Text(
               nombre,
               style: TextStyle(
-                  color: Colors.white, fontWeight: FontWeight.bold, fontSize: 20),
+                  color: Colors.white,
+                  fontWeight: FontWeight.bold,
+                  fontSize: 18),
             ),
             Text('$puntos Pts',
                 style: TextStyle(color: Colors.white, fontSize: 15))
